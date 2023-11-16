@@ -62,7 +62,7 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    header h1, footer p {
-        font-size: 1.5rem;
+     p {
+        font-size: 1.3rem !important;
     }
 }
