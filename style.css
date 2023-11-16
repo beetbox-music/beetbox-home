@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: "font";
+    src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  }
+
+  
+/* General Body Styling */
+body {
+    font-family: font;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #00FFAA;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+}
+
+main p{
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #F7004E;
+    color: #000;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1, footer p {
+        font-size: 1.5rem;
+    }
+}
