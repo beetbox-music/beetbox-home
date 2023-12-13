@@ -63,6 +63,6 @@ footer {
 /* Responsive Design */
 @media (max-width: 600px) {
      p {
-        font-size: 1.3rem !important;
+        font-size: 1rem !important;
     }
 }
